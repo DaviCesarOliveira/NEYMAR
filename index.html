@@ -1,19 +1,35 @@
 <html>
     <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Neymar Jr </title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
     </head>
 <body>
-    
-    <ul id="ul"> 
-        <li class="items"><a href="#welcome"> INÍCIO </a></li>
-        <li class="items"><a href="#vid"> VÍDEOS </a></li>
-        <li class="items"><a href="#tra"> TRABALHOS </a></li>
-        <li class="items"><a href="#esc"> ESCRITOS </a></li>
-        <li class="items"><a href="#con"> CONTATO </a></li>
-    </ul> 
+    <nav class="navbar-inverse myNavbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MENU</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="items"><a href="#welcome"> INÍCIO </a></li>
+                <li class="items"><a href="#vid"> VÍDEOS </a></li>
+                <li class="items"><a href="#tra"> TRABALHOS </a></li>
+                <li class="items"><a href="#esc"> ESCRITOS </a></li>
+                <li class="items"><a href="#con"> CONTATO </a></li>
+            </ul>
+        </div>
+    </nav>
     <section id="welcome">
         <div class="parallax-inner"> 
             <img src="ney.png" class="profile" >
@@ -61,6 +77,5 @@ Biografia do Neymar
         <i class="fa fa-instagram"></i>  <h3>myinstagramid</h3>
         </a>
 </section>
-
 </body>
 </html>
